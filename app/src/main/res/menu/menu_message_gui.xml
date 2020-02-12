@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mario.blestring.MessageGUI">
+    <item
+        android:id="@+id/ToggleBT"
+        android:orderInCategory="100"
+        android:title="@string/action_BTtoggle"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Connect"
+        android:orderInCategory="100"
+        android:title="@string/action_connect"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Paired"
+        android:orderInCategory="100"
+        android:title="@string/action_paired"
+        app:showAsAction="never"
+        app:actionLayout="@layout/activity_paired"/>
+    <item
+        android:id="@+id/Exit"
+        android:orderInCategory="100"
+        android:title="@string/action_Exit"
+        app:showAsAction="never"/>
+</menu>

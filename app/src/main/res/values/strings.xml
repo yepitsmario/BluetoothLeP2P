@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BTstring</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_BTtoggle">BT ON/OFF</string>
+    <string name="action_connect">Connect</string>
+    <string name="action_paired">Paired Devices</string>
+    <string name="action_Exit">Exit</string>
+    <string name="title_activity_paired">Paired Devices</string>
+</resources>
